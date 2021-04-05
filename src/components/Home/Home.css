@@ -1,4 +1,11 @@
 .home{
-    margin-left: 5rem;
-    margin-right: 5rem;
+    /* /* margin-left: 5rem; */
+    margin-right: 0rem; 
+}
+
+@media (max-width: 768px) {
+    .home{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
 }
