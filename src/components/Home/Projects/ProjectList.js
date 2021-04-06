@@ -13,7 +13,7 @@ const ProjectList = (props) => {
           <ProjectItem
             key={project.id}
             id={project.id}
-            Image={project.image}
+            image={project.image}
             name={project.name}
             description={project.description}
           />

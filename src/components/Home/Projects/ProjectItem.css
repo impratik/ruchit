@@ -1,5 +1,50 @@
-.list-item {
-    display: block;
-    border-spacing: 50;
+
+
+
+.item-image {
+  display: flex;
+  margin: 0rem;
+  width: 100%;
+  height: 40%;
+  
+}
+
+.item-image:hover {
+  opacity: 0.9;
+  transition: opacity 0.1s;
+}
+
+.item-desc h4{
+  visibility: hidden;
+  margin: 0;
+  padding: 0rem;
+  position: flex;
+}
+
+@media (max-width: 768px) {
+  .item-image {
     width: 100%;
+  }
+
+  .item-image:hover {
+    opacity: 0.9;
+    transition: opacity 0.1s;
+  }
+
+  .list-item {
+    /* display: inline; */
+    position: flex;
+    flex-direction: row;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin:0;
+  }
+
+  .item-desc h4{
+      visibility: hidden;
+      margin: 0;
+      padding: 0rem;
+
+  }
 }

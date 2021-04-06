@@ -27,7 +27,7 @@ const MainHeader = (props) => {
   return (
     <header
       className="main-header"
-      style={({ top: visible ? "0" : "-60px" })}
+      style={({ top: visible ? "0" : "-140px" })}
     >
       {props.children}
     </header>

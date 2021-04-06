@@ -1,24 +1,22 @@
+.main-navigation__title {
+  color: white;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
 
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.main-navigation__header-nav {
+  display: none;
+}
+
+@media (max-width: 768px) {
   .main-navigation__title {
-    color: white;
     margin-left: 5rem;
-    margin-right: 5rem;
+    /* margin-right: 5rem; */
   }
-  
-
-  .link{
-      text-decoration: none;
-      color: white;
-      font-size: 1.8rem;
-  }
-
-  .main-navigation__header-nav {
-    display: none;
-  }
-
-  @media (max-width: 768px) {
-    .main-navigation__title{
-      margin-left: 5rem;
-      /* margin-right: 5rem; */
-    }
-  }
+}

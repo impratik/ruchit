@@ -1,7 +1,10 @@
-import React from "react";
+// import React from "react";
 
-const colors = (props) => {
-  return <div></div>;
-};
+// const colors = props => {
+//   return <div></div>;
+// };
 
-export default colors;
+// export default colors;
+
+let PrimaryColor = "#0063B2FF";
+let SecondaryColor = "#9CC3D5FF";
