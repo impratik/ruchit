@@ -14,9 +14,9 @@ const Project = () => {
   const PROJECTS = [
     {
       id: "u1",
-      name: "sportsadd",    
+      name: "Sportsadda",    
       image: SportsAdda,
-      description: "SportsAdda",
+      description: "Get access to match previews, reports, exclusive videos, special features, engaging podcasts for Cricket, Football and Kabaddi, in addition to real-time match updates and a whole lot more!",
     },
     {
       id: "u2",
