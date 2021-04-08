@@ -6,7 +6,6 @@ import NavLinks from "./NavLinks";
 import "./MainNavigation.css";
 const MainNavigation = props => {
  
-  
   return (
   <MainHeader>
       <h1 className="main-navigation-title">

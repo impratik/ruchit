@@ -16,6 +16,10 @@ const ProjectList = (props) => {
             image={project.image}
             name={project.name}
             description={project.description}
+            type={project.type}
+            role={project.role}
+            logocredit={project.logocredit}
+            detail={project.detail}
           />
         );
       })}
