@@ -6,6 +6,7 @@ const ProjectList = (props) => {
   if (props.items.length === 0) {
     return <h2>No Projects</h2>;
   }
+
   return (
     <ul className="project-list">
       {props.items.map((project) => {
@@ -20,7 +21,9 @@ const ProjectList = (props) => {
             role={project.role}
             logocredit={project.logocredit}
             detail={project.detail}
+            link={project.link}
           />
+          
         );
       })}
     </ul>

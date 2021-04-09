@@ -1,10 +1,26 @@
 .project-list{
-    display: inline;
+    /* display: inline;
     list-style: none;
     position: flex;
-    flex-direction: row;
+    flex-direction: column;
     left: 0;
+    flex-grow: 2;
     bottom: 0;
-    width: 100%;
+    width: 50%; */
     /* height: 10rem; */
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0rem;
+    padding: 0rem;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 768px) {
+    .project-list{
+        display: inline;
+        padding: 0rem;
+        margin: 0rem;
+    }
 }

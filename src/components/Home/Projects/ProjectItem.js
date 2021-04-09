@@ -13,7 +13,8 @@ const ProjectItem = (props) => {
     type: `${props.type}`,
     detail: `${props.detail}`,
     role: `${props.role}`,
-    logocredit: `${props.logocredit}`    
+    logocredit: `${props.logocredit}`,
+    link: `${props.link}`    
   };
 
   return (
