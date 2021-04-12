@@ -1,5 +1,6 @@
 .footer {
-  background-color: #024852;
+  /* background-color: #024852; */
+  background-color: #ff9e50;
   width: 100%;
   height: 12.5rem;
   display: flex;
@@ -30,14 +31,14 @@
 .hear {
   padding: 0%;
   margin: 0%;
-  color: white;
+  color: black;
   font-size: 1.2rem;
   font-weight: bold;
 }
 
 .socialmail a {
   text-align: left;
-  color: white;
+  color: black;
 }
 
 .social {
@@ -64,3 +65,58 @@
   transition: all 0.2s ease-in-out;
   color: white;
 }
+
+.socialicon {
+  margin-right: 1rem;
+  margin-top: 1;
+  height: 2.5rem;
+  width: 2.5rem;
+
+  /* color: white; */
+}
+
+.socialicon:hover {
+  height: 3rem;
+  width: 3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .footer{
+    height:18rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social{
+    align-items: center;
+    margin-left: 0px;
+      /* margin-right: 0px; */
+}
+
+.touch{
+  font-size: 1rem;
+}
+
+.hear{
+  font-size: 1.2rem;
+  /* width: 100%; */
+  margin-right:auto;
+}
+
+.learn{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.email{
+    align-items: center;
+    margin-right: 0px;
+}
+
+
+}
+
+
+
