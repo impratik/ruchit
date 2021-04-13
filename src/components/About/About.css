@@ -36,8 +36,9 @@
 }
 
 .profile img {
-  margin: 1rem;
-  height: 38rem;
+  margin-top: 4rem;
+  width: 100%;
+  height: auto;
 }
 
 .left {
@@ -55,22 +56,40 @@
   .about-main {
     display: flex;
     flex-direction: column;
+    margin: 0;
   }
 
 
   .about-container {
-      display: inline-block;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+      /* display: inline-block; */
       /* flex-direction:column; */
   }
 
+  .about{
+    width: auto;
+    }
   .about h2 {
+    /* margin: 1rem; */
+    width: 100%;
     font-size: 2.4rem;
     font-weight: 750;
     opacity: 0.7;
+  
   }
 
+  .profile img{
+    width: 100%;
+    margin:0;
+    padding-top: 1rem;
+    height: auto
+  }
   .about h4 {
-    width: auto;
+    width: 100%;
+    height: auto;
     font-size: 1rem;
     font-weight: 400;
     opacity: 0.8;
